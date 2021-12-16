@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">receipt</string>
+    <string name="signup_message">signup</string>
+    <string name="login_message">login</string>
+    <string name="note">Say good bye to paper receipt </string>
+
+</resources>
