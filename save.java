@@ -7,23 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class share extends AppCompatActivity {
-    Button button4;
+public class save extends AppCompatActivity {
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_share);
-        button4=(Button) findViewById(R.id.button4);
-        button4.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_save);
+        button=(Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openlogin();
+                openshare();
             }
         });
     }
-    public void openlogin(){
-        Intent intent =new Intent(this,login.class);
+    public void openshare(){
+        Intent intent =new Intent(this,share.class);
         startActivity(intent);
     }
     }

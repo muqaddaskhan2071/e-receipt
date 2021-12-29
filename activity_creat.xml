@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Relativelayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Customer Details"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:text="Receipt management"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Welcome" />
+
+    <Button
+        android:id="@+id/button9"
+        android:text="Statistics"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        android:text="Help"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        android:text="Creat Receipt"
+        android:textStyle="bold" />
+
+</Relativelayout>
